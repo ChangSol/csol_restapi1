@@ -38,3 +38,4 @@ out/
 csol_restapi1\
 .idea\
 application-secret.yml
+csol_restapi1.pem
