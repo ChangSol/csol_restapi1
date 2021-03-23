@@ -28,7 +28,7 @@ import java.util.Map;
 )
 public class DbConfig {
     @Primary
-    @Bean(name = "maria_dataSource")
+    @Bean(name = "maria_dataSource")//2
     @ConfigurationProperties(value = "spring.data.maria")
     public DataSource mariaDataSource(){
         return DataSourceBuilder.create().type(HikariDataSource.class).build();
