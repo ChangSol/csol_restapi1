@@ -37,6 +37,4 @@ out/
 .vscode/
 csol_restapi1\
 .idea\
-application.yml
-application.yml
 application-secret.yml
